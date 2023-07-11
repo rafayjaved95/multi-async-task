@@ -1,0 +1,21 @@
+{
+  "name": "test-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "task1.js",
+  "scripts": {
+    "task1": "npx nodemon task1.js --env development",
+    "task2": "npx nodemon task2.js --env development",
+    "task3": "npx nodemon task3.js --env development",
+    "bonus": "npx nodemon bonus.js --env development"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.4",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "rxjs": "^7.8.1"
+  }
+}
